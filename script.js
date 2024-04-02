@@ -3,119 +3,119 @@
 const data = [
   // 1
   {
-    sender: "Sadam",
-    date: "Dec, 12",
+    sender: "ashish",
+    date: "Jan, 12",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 2
   {
-    sender: "Twitter",
+    sender: "grow digest",
     date: "Dec, 22",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   //  3
   {
-    sender: "Yahye",
+    sender: "Limkdln",
     date: "Dec, 14",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 4
   {
-    sender: "Sadam",
+    sender: "Simplilearn",
     date: "Jan, 11",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 5
   {
-    sender: "Qadar",
+    sender: "Linkdln",
     date: "Dec, 12",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 6
   {
-    sender: "John",
+    sender: "Swiggy",
     date: "Oct, 26",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 7
   {
-    sender: "Slaf",
+    sender: "Zomato",
     date: "Dec, 21",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 8
   {
-    sender: "Sadam",
+    sender: "Zomato",
     date: "Dec, 10",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 9
   {
-    sender: "Farah",
+    sender: "Grow",
     date: "May, 20",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 10
   {
-    sender: "Alex",
+    sender: "Indeed",
     date: "Feb, 12",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 11
   {
-    sender: "Alex",
+    sender: "Indeed",
     date: "Jun, 25",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 12
   {
-    sender: "Moe",
+    sender: "5Paisa",
     date: "Sep, 28",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 13
   {
-    sender: "Jey",
+    sender: "Angel One",
     date: "Jan, 17",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 14
   {
-    sender: "Adam",
+    sender: "Angel One",
     date: "Nov, 15",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 15
   {
-    sender: "Joe",
+    sender: "Grow",
     date: "Apr, 23",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 16
   {
-    sender: "Sadam",
+    sender: "NPTEL",
     date: "Jul, 28",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 17
   {
-    sender: "Slef",
+    sender: "Indeed",
     date: "Dec, 31",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
@@ -142,5 +142,4 @@ const render = function (data) {
     )
     .join(" ");
 };
-
 render(data);
