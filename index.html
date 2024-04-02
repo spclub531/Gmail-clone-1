@@ -1,16 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Save Textarea</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail-clone</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/recreate252/gmail-clone/blob/main/img/logo-64.png?raw=true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Auto Save Textarea</h1>
-        <textarea id="myTextarea" rows="10" cols="50" placeholder="Start typing here..."></textarea>
-    </div>
-    <script src="script.js"></script>
-</body>
+    
+   
+  </head>
+  <body>
+    <section>
+      <header class="header">
+        <div class="left-area flex">
+          <div class="menu hover">
+            <span class="icon"></span>
+            <span class="icon"></span>
+            <span class="icon"></span>
+          </div>
+          <img src="https://github.com/recreate252/gmail-clone/blob/main/img/logo-24.png?raw=true" alt="logo" />
+          <span class="mail-text">Gmail</span>
+        </div>
+        <div class="middle-area">
+          <div class="search">
+            <ion-icon name="search-outline" class="hover"></ion-icon>
+            <input type="search" placeholder="Search mail" />
+          </div>
+        </div>
+        <div class="right-area flex">
+          <ion-icon name="help-circle-outline" class="hover"></ion-icon>
+          <ion-icon name="settings-outline" class="hover"></ion-icon>
+          <ion-icon name="apps" class="hover"></ion-icon>
+          <img src="https://xsgames.co/randomusers/assets/images/favicon.png" alt="user-photo" />
+        </div>
+      </header>
+      <nav>
+        <div class="nav_container">
+          <div class="nav_top">
+            <span> <ion-icon name="pencil"></ion-icon> Compose</span>
+          </div>
+          <div class="nav_middle">
+            <ul>
+              <li>
+                <a href="#">
+                  <ion-icon name="image-outline"></ion-icon>
+                  Inbox
+                </a>
+                <span>4</span>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="star-outline"></ion-icon>
+                  Starred
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="time-outline"></ion-icon>
+                  Snoozed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="send-outline"></ion-icon>
+                  Sent
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="document-outline"></ion-icon>
+                  Draft
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  More
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav_bottom">
+            <span>Labels</span>
+            <ion-icon name="add" class="hover"></ion-icon>
+          </div>
+        </div>
+      </nav>
+      <main class="main_content">
+        <div class="top">
+          <div class="left">
+            <div class="check">
+              <img src="https://github.com/recreate252/gmail-clone/blob/main/img/checkbox.png?raw=true" alt="" />
+              <span> <ion-icon name="checkmark"></ion-icon> </span>
+              <ion-icon name="caret-down-outline"></ion-icon>
+            </div>
+            <ion-icon
+              name="reload-outline"
+              class="hover content-icon"
+            ></ion-icon>
+            <ion-icon
+              name="ellipsis-vertical"
+              class="hover content-icon"
+            ></ion-icon>
+          </div>
+          <div class="right">
+            <div class="sort_numbers hover">1-50 of 94</div>
+            <ion-icon
+              name="chevron-back-outline"
+              class="chev content-icon"
+            ></ion-icon>
+            <ion-icon
+              name="chevron-forward-outline"
+              class="hover content-icon"
+            ></ion-icon>
+          </div>
+        </div>
+        <div class="messages_area">
+          <div class="messages">
+            <div class="messages_left">
+              <div class="check check_2">
+                <img src="https://github.com/recreate252/gmail-clone/blob/main/img/checkbox.png?raw=true" alt="" />
+                <span> <ion-icon name="checkmark"></ion-icon> </span>
+              </div>
+              <ion-icon name="star-outline" class="hover star"></ion-icon>
+              <span>Twitter</span>
+            </div>
+            <div class="messages_content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum deleniti, eligendi vitae explicabo accusamus,
+              distinctio molestias a nisi tempore modi dolores debitis
+              laboriosam? Delectus laudantium, in minima sed eum consectetur!
+            </div>
+            <div class="messages_date">Dec,28</div>
+          </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+      </main>
+      <aside>
+        <div class="aside_icons">
+          <img src="https://github.com/recreate252/gmail-clone/blob/main/img/calendar-48.png?raw=true" alt="" class="hover" />
+          <img src="https://github.com/recreate252/gmail-clone/blob/main/img/keep-48.png?raw=true" alt="" class="hover" />
+          <img src="https://github.com/recreate252/gmail-clone/blob/main/img/task-48.png?raw=true" alt="" class="hover" />
+          <img src="https://github.com/recreate252/gmail-clone/blob/main/img/account-48.png?raw=true" alt="" class="hover" />
+          <span></span>
+          <ion-icon name="add" class="hover"></ion-icon>
+
+          <div>
+            <ion-icon name="chevron-forward-outline" class="hover"></ion-icon>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </body>
 </html>
